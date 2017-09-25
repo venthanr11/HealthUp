@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthup_background"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/healthup_banner"
+        android:src="@drawable/healthup_banner230x115_new2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/code.45"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/curved_edittext"
+            android:hint="@string/hint_password"
+            android:inputType="numberPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/login"
+            style="@style/code.35"
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/one"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/three"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/three" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/four"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/five"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/six"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/six" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/nine" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/code.45"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/code.35"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="90dp"
+            android:layout_toRightOf="@+id/zero"
+            android:background="@drawable/glossy_ball250x200"
+            android:text="@string/delete" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lifestyles">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Extra Active</item>
+    </string-array>
+    
+    <string-array name="ethnicities">
+        <item>South Asian</item>
+        <item>Chinese</item>
+        <item>Black</item>
+        <item>American</item>
+        <item>European</item>
+    </string-array>
+</resources>

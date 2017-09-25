@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">HealthUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">HealthUp</string>
+    <string name="password">Password</string>
+    <string name="healthup">HealthUp</string>
+    <string name="hint_password">Password</string>
+    <string name="healthup_banner">HealthUp_Banner</string>
+    <string name="login">Login</string>
+    <string name="done">Done</string>
+    <string name="delete">Del</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">DOB</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="lifestyle">LifeStyle</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="bp">High/Low BP</string>
+    <string name="tobacco_usage">Tobacco Usage</string>
+    <string name="alcohol_usage">Alcohol Usage</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="height_def">0.0</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="primitive_profile">Primitive Profile</string>
+    <string name="save">Save</string>
+    
+    <color name="green">#138942</color>
+    <color name="white">#FFFFFF</color>
+</resources>

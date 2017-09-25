@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="code" parent="@android:style/TextAppearance">
+	    <item name="android:textStyle">italic</item>
+	    <item name="android:typeface">monospace</item>	  
+	</style>
+	<style name="code.13">
+	    <item name="android:textSize">13sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	<style name="code.15">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	<style name="code.15.white">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="code.18">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	<style name="code.18.white">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="code.18.sans">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:typeface">sans</item>
+	    <item name="android:textStyle">normal</item>
+	</style>
+	<style name="code.25">
+	    <item name="android:textSize">25sp</item>
+	</style>
+	<style name="code.35">
+	    <item name="android:textSize">35sp</item>
+	</style>
+	<style name="code.45">
+	    <item name="android:textSize">45sp</item>
+	</style>
+</resources>

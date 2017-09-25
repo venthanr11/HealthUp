@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bmi_definition">The body mass index (BMI), or Quetelet index, is a measure for human body shape based on an individuals mass and height.</string>
+	<string name="bmr_definition">Basal metabolic rate (BMR) is the amount of energy expended daily by humans and other animals at rest.</string>
+	<string name="bfp_definition">The body fat percentage is the total mass of fat divided by total body mass; body fat includes essential body fat and storage body fat.</string>
+	<string name="wth_definition">Waist–hip ratio or waist-to-hip ratio (WHR) is the ratio of the circumference of the waist to that of the hips.</string>
+	<string name="dcn_definition">Daily Calorie needs tells you the amount of calories you need to intake to maintain the current weight.</string>
+</resources>
